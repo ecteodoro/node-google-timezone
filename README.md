@@ -1,4 +1,4 @@
-node-google-timestamp
+node-google-timezone
 ================
 
-A Node.js wrapper to Google Timestamp API
+A Node.js wrapper to Google Timezone API
