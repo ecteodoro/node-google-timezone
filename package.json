@@ -25,5 +25,9 @@
   "bugs": {
     "url": "https://github.com/ecteodoro/node-google-timezone/issues"
   },
-  "homepage": "https://github.com/ecteodoro/node-google-timezone"
+  "homepage": "https://github.com/ecteodoro/node-google-timezone",
+  "dependencies": {
+    "qs": "^1.2.1",
+    "request": "^2.40.0"
+  }
 }
