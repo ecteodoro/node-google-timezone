@@ -38,7 +38,6 @@ var GoogleTimezoneAPI = function () {
 
 function makeRequest(options, callback) {
   var requestURL = GOOGLE_TIMEZONE_API_URL + qs.stringify(options);
-  console.log(requestURL);
   request(requestURL, function (err, response, data) {
     if (err || response.statusCode != 200) {
       return callback(new Error('Google API request error: ' + data));
