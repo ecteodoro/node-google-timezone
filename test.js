@@ -16,7 +16,7 @@ var lat = 40.7421,
 
 timezone.data(lat, lng, timestamp, function (err, tz) {
 
-  console.log(tz.options);
+  console.log(tz.raw_response);
 
   console.log(tz.local_timestamp);
 
