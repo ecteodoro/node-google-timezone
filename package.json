@@ -27,7 +27,7 @@
   },
   "homepage": "https://github.com/ecteodoro/node-google-timezone",
   "dependencies": {
-    "qs": "^6.4.0",
+    "qs": "^6.5.1",
     "request": "^2.40.0"
   }
 }
