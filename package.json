@@ -1,6 +1,6 @@
 {
   "name": "node-google-timezone",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "A Node.js wrapper to Google Timezone API",
   "main": "index.js",
   "directories": {
@@ -27,7 +27,7 @@
   },
   "homepage": "https://github.com/ecteodoro/node-google-timezone",
   "dependencies": {
-    "qs": "^1.2.1",
+    "qs": "^6.4.0",
     "request": "^2.40.0"
   }
 }
